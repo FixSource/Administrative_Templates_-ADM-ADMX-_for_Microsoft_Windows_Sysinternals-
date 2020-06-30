@@ -1,4 +1,5 @@
-;This project is designed to create Group Policy Administrative Template Files (ADMX / ADML). These files are used in Group Policy to configure Microsoft Windows Sysinternals Utilities.
+;This project is designed to create Group Policy Administrative Template Files (ADMX\ADML). These files are used in Group Policy to configure Microsoft Windows Sysinternals Utilities.
+;This file version is 0.1
    CLASS USER
      CATEGORY !!MWS
 
