@@ -1,0 +1,692 @@
+;My Policy for test
+   CLASS USER
+     CATEGORY !!MWS
+
+	   CATEGORY "AccessChk"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\AccessChk"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "AccessEnum"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Share Enum"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Active Directory Explorer"
+	   END CATEGORY
+
+	   CATEGORY "AdRestore"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\A"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Autologon"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Autologon"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "AutoRuns"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\AutoRuns"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "BGInfo"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\BGInfo"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "BlueScreen"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Bluescreen Screen Saver"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "CacheSet"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\CacheSet"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "ClockRes"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\ClockRes"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Contig"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Contig"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Coreinfo"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Coreinfo"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "DebugView"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\DbgView"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Desktops"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Desktops"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+	 
+	   CATEGORY "Disk2Vhd"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Disk2Vhd"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "DiskExt"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\DiskExt"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "DiskView"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\DiskView"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "EFSDump"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\EFSDump"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Handle"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Handle"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Hex2Dec"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Hex2Dec"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Insight for Active Directory"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\ADInsight"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Junction"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Junction"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "LdmDump"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\LdmDump"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "ListDLLs"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\ListDLLs"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "LiveKd"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\LiveKd"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "LoadOrder"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\LoadOrder"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "LogonSessions"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\LogonSessions"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "NotMyFault"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\NotMyFault"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "NTFSInfo"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\NTFSInfo"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PageDefrag"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PageDefrag"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "MoveFile"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Movefile"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PendMoves"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PendMove"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Portmon"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Portmon"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "ProcDump"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\ProcDump"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Process Explorer"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Process Explorer"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Process Monitor"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Process Monitor"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsExec"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsExec"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsFile"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsFile"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsGetSid"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsGetSid"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsInfo"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsInfo"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsKill"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsKill"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsList"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsList"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsLoggedon"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsLoggedon"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsLoglist"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsLoglist"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsPasswd"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsPasswd"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsPing"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsPing"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsService"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsService"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsShutdown"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsShutdown"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "PsSuspend"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\PsSuspend"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "RamMap"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\RamMap"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "RegDelNull"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\RegDelNull"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Reghide"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Reghide"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Registry Usage (RU)"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Regsize"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Regjump"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Regjump"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "RootkitRevealer"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\RootkitRevealer"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY	 
+
+	   CATEGORY "SDelete"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\SDelete"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY	   
+
+	   CATEGORY "ShareEnum"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Share Enum"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\ShareEnum"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "ShellRunas"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\ShellRunas - Sysinternals: www.sysinternals.com"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Sigcheck"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Sigcheck"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Streams"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Streams"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+	   CATEGORY "Strings"
+		 POLICY !!Eula
+		   KEYNAME "Software\Sysinternals\Strings"
+	       EXPLAIN !!Help  
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY
+	   END CATEGORY
+
+       CATEGORY "Sync"
+	     POLICY !!Eula
+	       KEYNAME "Software\Sysinternals\Sync" 
+	       EXPLAIN !!Help  	   
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY	   
+       END CATEGORY
+
+       CATEGORY "TCPView"
+	     POLICY !!Eula
+	       KEYNAME "Software\Sysinternals\TCPView" 
+	       EXPLAIN !!Help  	   
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY	   
+       END CATEGORY
+
+       CATEGORY "VMMap"
+	     POLICY !!Eula
+	       KEYNAME "Software\Sysinternals\VMMap" 
+	       EXPLAIN !!Help  	   
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY	   
+       END CATEGORY
+
+       CATEGORY "VolumeId"
+	     POLICY !!Eula
+	       KEYNAME "Software\Sysinternals\VolumeID" 
+	       EXPLAIN !!Help  	   
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY	   
+       END CATEGORY
+
+       CATEGORY "Whois"
+	     POLICY !!Eula
+	       KEYNAME "Software\Sysinternals\Whois" 
+	       EXPLAIN !!Help  	   
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY	   
+       END CATEGORY
+
+       CATEGORY "Winobj"
+	     POLICY !!Eula
+	       KEYNAME "Software\Sysinternals\Winobj" 
+	       EXPLAIN !!Help  	   
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY	   
+       END CATEGORY
+
+       CATEGORY "ZoomIt"
+	     POLICY !!Eula
+	       KEYNAME "Software\Sysinternals\ZoomIt" 
+	       EXPLAIN !!Help  	   
+	       VALUENAME "EulaAccepted"
+		    VALUEON NUMERIC 1
+			VALUEOFF NUMERIC 0
+	     END POLICY	   
+       END CATEGORY
+
+     END CATEGORY
+	 
+[strings]
+mws="Microsoft Windows Sysinternals"
+Eula="Eula Accepted"
+Help="Sysinternals Software License Terms\n  These license terms are an agreement between Sysinternals (a wholly owned subsidiary of Microsoft Corporation) and you. Please read them. They apply to the software you are downloading from technet.microsoft.com/sysinternals, which includes the media on which you received it, if any. The terms also apply to any Sysinternals\n  * updates,\n * supplements,\n * Internet-based services,\n  * and support services\n for this software, unless other terms accompany those items. If so, those terms apply.\n BY USING THE SOFTWARE, YOU ACCEPT THESE TERMS. IF YOU DO NOT ACCEPT THEM, DO NOT USE THE SOFTWARE.\n If you comply with these license terms, you have the rights below.\n \n Installation and User Rights\n \n You may install and use any number of copies of the software on your devices.\n \n Scope of License\n \n The software is licensed, not sold. This agreement only gives you some rights to use the software. Sysinternals reserves all other rights. Unless applicable law gives you more rights despite this limitation, you may use the software only as expressly permitted in this agreement. In doing so, you must comply with any technical limitations in the software that only allow you to use it in certain ways. You may not\n * work around any technical limitations in the software;\n * reverse engineer, decompile or disassemble the software, except and only to the extent that applicable law expressly permits, despite this limitation;\n * make more copies of the software than specified in this agreement or allowed by applicable law, despite this limitation;\n * publish the software for others to copy;\n * rent, lease or lend the software;\n * transfer the software or this agreement to any third party; or\n * use the software for commercial software hosting services.\n \n Sensitive Information\n \n Please be aware that, similar to other debug tools that capture “process state” information, files saved by Sysinternals tools may include personally identifiable or other sensitive information (such as usernames, passwords, paths to files accessed, and paths to registry accessed). By using this software, you acknowledge that you are aware of this and take sole responsibility for any personally identifiable or other sensitive information provided to Microsoft or any other party through your use of the software.\n \n Documentation\n \n Any person that has valid access to your computer or internal network may copy and use the documentation for your internal, reference purposes.\n \n Export Restrictions\n \n The software is subject to United States export laws and regulations. You must comply with all domestic and international export laws and regulations that apply to the software. These laws include restrictions on destinations, end users and end use. For additional information, see www.microsoft.com/exporting .\n \n Support Services\n \n Because this software is "as is," we may not provide support services for it.\n \n Entire Agreement\n \n This agreement, and the terms for supplements, updates, Internet-based services and support services that you use, are the entire agreement for the software and support services.\n \n Applicable Law\n \n United States . If you acquired the software in the United States , Washington state law governs the interpretation of this agreement and applies to claims for breach of it, regardless of conflict of laws principles. The laws of the state where you live govern all other claims, including claims under state consumer protection laws, unfair competition laws, and in tort.\n Outside the United States . If you acquired the software in any other country, the laws of that country apply.\n \n Legal Effect\n \n This agreement describes certain legal rights. You may have other rights under the laws of your country. You may also have rights with respect to the party from whom you acquired the software. This agreement does not change your rights under the laws of your country if the laws of your country do not permit it to do so.\n \n Disclaimer of Warranty\n \n The software is licensed "as-is." You bear the risk of using it. Sysinternals gives no express warranties, guarantees or conditions. You may have additional consumer rights under your local laws which this agreement cannot change. To the extent permitted under your local laws, sysinternals excludes the implied warranties of merchantability, fitness for a particular purpose and non-infringement.\n \n Limitation on and Exclusion of Remedies and Damages\n \n You can recover from sysinternals and its suppliers only direct damages up to U.S. $5.00. You cannot recover any other damages, including consequential, lost profits, special, indirect or incidental damages.\n This limitation applies to\n * anything related to the software, services, content (including code) on third party Internet sites, or third party programs; and\n * claims for breach of contract, breach of warranty, guarantee or condition, strict liability, negligence, or other tort to the extent permitted by applicable law.\n \n It also applies even if Sysinternals knew or should have known about the possibility of the damages. The above limitation or exclusion may not apply to you because your country may not allow the exclusion or limitation of incidental, consequential or other damages.\n  Please note: As this software is distributed in Quebec , Canada , some of the clauses in this agreement are provided below in French.\n Remarque : Ce logiciel étant distribué au Québec, Canada, certaines des clauses dans ce contrat sont fournies ci-dessous en français.\n EXONÉRATION DE GARANTIE. Le logiciel visé par une licence est offert « tel quel ». Toute utilisation de ce logiciel est à votre seule risque et péril. Sysinternals n'accorde aucune autre garantie expresse. Vous pouvez bénéficier de droits additionnels en vertu du droit local sur la protection dues consommateurs, que ce contrat ne peut modifier. La ou elles sont permises par le droit locale, les garanties implicites de qualité marchande, d'adéquation à un usage particulier et d'absence de contrefaçon sont exclues.\n LIMITATION DES DOMMAGES-INTÉRÊTS ET EXCLUSION DE RESPONSABILITÉ POUR LES DOMMAGES. Vous pouvez obtenir de Sysinternals et de ses fournisseurs une indemnisation en cas de dommages directs uniquement à hauteur de 5,00 $ US. Vous ne pouvez prétendre à aucune indemnisation pour les autres dommages, y compris les dommages spéciaux, indirects ou accessoires et pertes de bénéfices.\n Cette limitation concerne :\n tout ce qui est relié au logiciel, aux services ou au contenu (y compris le code) figurant sur des sites Internet tiers ou dans des programmes tiers ; et\n les réclamations au titre de violation de contrat ou de garantie, ou au titre de responsabilité stricte, de négligence ou d'une autre faute dans la limite autorisée par la loi en vigueur.\n Elle s'applique également, même si Sysinternals connaissait ou devrait connaître l'éventualité d'un tel dommage. Si votre pays n'autorise pas l'exclusion ou la limitation de responsabilité pour les dommages indirects, accessoires ou de quelque nature que ce soit, il se peut que la limitation ou l'exclusion ci-dessus ne s'appliquera pas à votre égard.\n EFFET JURIDIQUE. Le présent contrat décrit certains droits juridiques. Vous pourriez avoir d'autres droits prévus par les lois de votre pays. Le présent contrat ne modifie pas les droits que vous confèrent les lois de votre pays si celles-ci ne le permettent pas."
+
