@@ -75,7 +75,7 @@
       <string id="mws">Microsoft Windows Sysinternals</string>
       <string id="Eula">Eula Accepted</string>
       <string id="Help">Do you accept the Sysinternals Software License Terms?</string>
-      <string id="ADMXMigrator_UnresolvedString">ADMX Migrator encountered a string that is not present in the source ADM string table.</string>
+      <string id="ADMXMigrator_UnresolvedString">Microsoft Windows Sysinternals.</string>
       <string id="ADMXMigrator_NoSupportedOn">ADMX Migrator encountered a policy that does not have a supportedOn value.</string>
     </stringTable>
     <presentationTable>
